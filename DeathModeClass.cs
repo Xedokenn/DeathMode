@@ -10,7 +10,7 @@ using HarmonyLib;
 namespace DeathMode
 {
     public class DeathModeClass : MelonMod
-    {
+    { 
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
             LoggerInstance.Msg($"Scene {sceneName} with build index {buildIndex} has been loaded!");

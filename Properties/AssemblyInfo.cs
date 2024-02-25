@@ -1,11 +1,12 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.ComTypes;
-using MelonLoader;
 using DeathMode;
+using MelonLoader;
+
+
 [assembly: MelonInfo(typeof(DeathModeClass), "DeathMode", "1.0.0", "Xedoken")]
-[assembly: MelonGame("LuGus Studios", "Liftoff")]
+[assembly: MelonGame("velocidrone", "velocidrone")]
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
@@ -15,7 +16,7 @@ using DeathMode;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DeathMode")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -23,11 +23,27 @@ namespace DeathMode
 
         public override void OnUpdate()
         {
-            CameraContoller Camera = GameObject.Find("Camera").GetComponent<CameraContoller>();
+            //CameraContoller Camera = GameObject.Find("Camera").GetComponent<CameraContoller>();
+            //if (Input.GetKeyUp(KeyCode.LeftBracket))
+            //{
+            //    Camera.fpvFieldOfView += 2;
+            //    Camera.setFpvFOVMinus();
+            //}
+
+
+
+            UnityEngine.UI.Slider Fill = GameObject.Find("Fill").GetComponent<UnityEngine.UI.Slider>();
             if (Input.GetKeyUp(KeyCode.Keypad6))
             {
                 LoggerInstance.Msg($"brou what the fuck");
+                Fill.value += 5;
             }
+
+
+
+
+
+
         }
-        }
+    }
 }
